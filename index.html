@@ -166,6 +166,18 @@
     align-items:center;
     justify-content:center;
     position:relative;
+    overflow:hidden;
+  }
+
+  .card-visual.has-photo{
+    height:170px;
+  }
+
+  .card-photo{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
   }
 
   .card-visual svg{
@@ -270,7 +282,7 @@
 <body>
 
   <div class="internal-notice">
-    ⚠ Uso exclusivamente interno — Esta página <strong>no debe compartirse con clientes ni personas externas</strong>. Uso Autorizado al área de <strong>TELEMARKETING</strong>.
+    ⚠ Uso exclusivamente interno — Esta página <strong>no debe compartirse con clientes ni personas externas</strong>. Uso restringido al área de <strong>TELEMARKETING</strong>.
   </div>
 
   <header>
@@ -310,8 +322,8 @@
       </a>
 
       <a class="card" href="https://isdhjai.github.io/Terram-Marsella/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="card-visual has-photo">
+          <img class="card-photo" src="images/casa-marsella.jpg" alt="Modelo Marsella">
         </div>
         <div class="card-body">
           <p class="model-label">Modelo</p>
@@ -336,8 +348,8 @@
       </a>
 
       <a class="card" href="https://isdhjai.github.io/Terram-Tripoli/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="card-visual has-photo">
+          <img class="card-photo" src="images/casa-tripoli.jpg" alt="Modelo Trípoli">
         </div>
         <div class="card-body">
           <p class="model-label">Modelo</p>
@@ -453,8 +465,8 @@
     <div class="cards">
 
       <a class="card" href="https://isdhjai.github.io/Avante-Capri/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 21v-4h6v4M9 8h1M14 8h1M9 12h1M14 12h1" stroke-linecap="round"/></svg>
+        <div class="card-visual has-photo">
+          <img class="card-photo" src="images/fachada-avante.jpg" alt="Avante Departamentos - Fachada">
         </div>
         <div class="card-body">
           <p class="model-label">Modelo</p>
@@ -466,8 +478,8 @@
       </a>
 
       <a class="card" href="https://isdhjai.github.io/Avante-Malta/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 21v-4h6v4M9 8h1M14 8h1M9 12h1M14 12h1" stroke-linecap="round"/></svg>
+        <div class="card-visual has-photo">
+          <img class="card-photo" src="images/fachada-avante.jpg" alt="Avante Departamentos - Fachada">
         </div>
         <div class="card-body">
           <p class="model-label">Modelo</p>
@@ -492,8 +504,8 @@
     <div class="cards">
 
       <a class="card" href="https://isdhjai.github.io/Lanka-Azurita-C/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="card-visual has-photo">
+          <img class="card-photo" src="images/casa-azurita-c.jpg" alt="Modelo Azurita C">
         </div>
         <div class="card-body">
           <p class="model-label">Modelo</p>
@@ -518,8 +530,8 @@
       </a>
 
       <a class="card" href="https://isdhjai.github.io/Lanka-Granate-B/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="card-visual has-photo">
+          <img class="card-photo" src="images/casa-granate-b.jpg" alt="Modelo Granate B">
         </div>
         <div class="card-body">
           <p class="model-label">Modelo</p>
@@ -593,4 +605,5 @@
 
 </body>
 </html>
+
 
